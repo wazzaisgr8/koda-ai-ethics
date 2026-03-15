@@ -27,7 +27,7 @@ export default function SiteHeader({ currentView, onNavigate, hasAssessment = fa
           onClick={() => onNavigate('landing')}
           className="flex items-center gap-2 flex-shrink-0"
         >
-          <span className="inline-flex items-center justify-center w-7 h-7 rounded bg-ink text-gold font-display text-sm leading-none">K</span>
+          <img src="/logo_koda_1-transparent.png" alt="Koda" className="h-8 w-auto" />
           <span className="font-display text-ink text-lg leading-none">Koda</span>
         </button>
 
